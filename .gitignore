@@ -1,0 +1,15 @@
+.mixin.out
+llibrary
+vintagefix
+**/.index/
+**/memory_repo/
+saves
+logs
+dumps
+crash-reports
+BotaniaVars.dat
+crafttweaker.log
+jei_bookmarks.ini
+usercache.json
+usernamecache.json
+patchouli_data.json

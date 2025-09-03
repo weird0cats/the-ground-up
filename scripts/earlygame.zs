@@ -1,0 +1,50 @@
+// for tool progression, makes it far more difficult to obtain anything made of stone
+recipes.remove(<minecraft:stone_sword>);
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.remove(<minecraft:stone_axe>);
+recipes.remove(<minecraft:stone_shovel>);
+recipes.remove(<minecraft:stone_hoe>);
+
+recipes.addShaped("stone_sword_difficult",<minecraft:stone_sword>,
+    [
+        [<ore:stone>],
+        [<ore:stone>],
+        [<ore:stickWood>]
+    ]);
+    
+recipes.addShaped("stone_pickaxe_difficult",<minecraft:stone_pickaxe>,
+    [
+        [<ore:stone>,<ore:string>,<ore:stone>],
+        [<ore:stone>,<ore:stickWood>,<ore:stone>],
+        [null,<ore:stickWood>,null]
+    ]);
+recipes.addShaped("stone_axe_difficult0",<minecraft:stone_axe>,
+    [
+        [<ore:stone>,<ore:stone>],
+        [<ore:string>,<ore:stone>],
+        [<ore:stickWood>,null]
+    ]);
+recipes.addShaped("stone_axe_difficult1",<minecraft:stone_axe>,
+    [
+        [<ore:stone>,<ore:stone>],
+        [<ore:stone>,<ore:string>],
+        [null,<ore:stickWood>]
+    ]);
+recipes.addShaped("stone_shovel_difficult",<minecraft:stone_shovel>,
+    [
+        [<ore:stone>],
+        [<ore:string>],
+        [<ore:stickWood>]
+    ]);
+recipes.addShaped("stone_hoe_difficult0",<minecraft:stone_hoe>,
+    [
+        [<ore:stone>,<ore:stone>],
+        [<ore:string>,null],
+        [<ore:stickWood>,null]
+    ]);
+recipes.addShaped("stone_hoe_difficult1",<minecraft:stone_hoe>,
+    [
+        [<ore:stone>,<ore:stone>],
+        [null,<ore:string>],
+        [null,<ore:stickWood>]
+    ]);

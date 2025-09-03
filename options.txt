@@ -91,6 +91,7 @@ key_flare.key.start_client_sampling:0
 key_flare.key.stop_client_sampling:0
 key_flare.key.open_tick_tracking_menu:0
 key_keybind.baublesinventory:48
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -99,7 +100,7 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -118,7 +119,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
 key_key.betterfoliage.gui:66
 key_Open Menu:25
 key_Toggle Freeze Effect:19
